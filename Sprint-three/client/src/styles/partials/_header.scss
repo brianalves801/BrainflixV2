@@ -1,0 +1,125 @@
+.header__container {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.header__searchbar {
+  width: 100%;
+  box-sizing: border-box;
+  height: 42px;
+  background-image: url("../Assets/Icons/PNG/Icon-search.png");
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-position-y: center;
+}
+
+.header__uploadplus {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.header__button {
+  width: 83.5vw;
+  align-items: flex-end;
+  background-color: #0095ff;
+  margin-right: 16px;
+  color: white;
+  border-radius: 10px;
+  height: 48px;
+  background-image: url("../Assets/Icons/PNG/Icon-upload.png");
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-size: 15px;
+  background-position-y: center;
+  background-position-y: 50%;
+}
+
+.header__upload {
+  display: flex;
+  width: 89%;
+  margin-top: 4%;
+}
+.header__logo {
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+.header__mohan {
+  display: flex;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+@include medium {
+  .header__container {
+    display: flex;
+    margin-right: 24px;
+    margin-left: 24px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  .header__logo {
+    margin-right: 169px;
+    margin-bottom: 3%;
+  }
+  .header__searchbar {
+    margin-right: 24px;
+    width: 100%;
+  }
+  .header__button {
+    width: 10vw;
+    background-position-x: 10%;
+    background-size: 15px;
+    background-position-y: center;
+    background-position-y: 50%;
+    margin-right: 24px;
+  }
+  .header__upload {
+    display: flex;
+    margin-right: 24px;
+    width: 100%;
+  }
+}
+@include large {
+  .header__container {
+    display: flex;
+    margin-right: 180px;
+    margin-left: 180px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  .header__logo {
+    margin-right: 509px;
+    margin-bottom: 1.5%;
+  }
+  .header__searchbar {
+    margin-right: 24px;
+    width: 100%;
+  }
+  .header__button {
+    width: 100%;
+    background-position-x: 10%;
+    background-size: 15px;
+    background-position-y: center;
+    background-position-y: 50%;
+    margin-right: 24px;
+  }
+  .header__mohan {
+    width: 50px;
+  }
+  .header__upload {
+    display: flex;
+    margin-right: 24px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

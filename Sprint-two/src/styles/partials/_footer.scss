@@ -1,0 +1,86 @@
+.footer__videos {
+  .footer__all {
+    display: flex;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    .footer__title {
+      margin: 0px;
+    }
+    .footer__video {
+      img {
+        height: 70px;
+        width: 120px;
+      }
+    }
+  }
+}
+.footer__hr {
+  visibility: visible;
+}
+.footer__heading {
+  margin-bottom: 40px;
+  margin-left: 16px;
+  color: lightgray;
+}
+.footer__both {
+  margin-left: 16px;
+  width: 180px;
+}
+.footer__artist {
+  margin: 0px;
+  padding-top: 5%;
+}
+hr {
+  margin-bottom: 40px;
+}
+
+@include medium {
+  .footer__heading {
+    margin-bottom: 40px;
+    margin-left: 24px;
+  }
+  .footer__both {
+    margin-left: 24px;
+  }
+  .footer__videos {
+    .footer__all {
+      display: flex;
+      margin-bottom: 24px;
+      margin-left: 24px;
+      margin-right: 24px;
+      .footer__title {
+        margin: 0px;
+      }
+      .footer__video {
+        img {
+          height: 70px;
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+@include large {
+  .footer__all {
+    margin-right: 180px;
+  }
+  .combo {
+    margin-right: 180px;
+  }
+  // hr {
+  //   display: none;
+  // }
+  .footer__heading {
+    margin-top: 0px;
+  }
+  .footer__hr {
+    visibility: hidden;
+  }
+  .combo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 180px;
+  }
+}

@@ -1,0 +1,163 @@
+.upload__title {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 40px;
+  border-top: 1px solid lightgray;
+}
+
+.upload__context {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.upload__thumbnail {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.upload__thumbnailtitle {
+  color: lightgray;
+}
+
+.upload__photo {
+  height: 25vh;
+  width: 100%;
+}
+
+.upload__tyv {
+  color: lightgray;
+  margin-top: 32px;
+}
+
+textarea {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.upload__titletextbox {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+.upload__avd {
+  color: lightgray;
+  margin-top: 24px;
+}
+.upload__descriptiontextbox {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-right: 16px;
+  height: 143px;
+  box-sizing: border-box;
+}
+
+.upload__footer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-right: 16px;
+  box-sizing: border-box;
+  margin-left: 16px;
+}
+
+.upload__button {
+  margin-top: 16px;
+  height: 60px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #0095ff;
+  color: white;
+}
+
+.upload__cancel {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #0095ff;
+  font-weight: bold;
+}
+
+@include medium {
+  .upload__title {
+    padding-top: 48px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+  }
+  .upload__thumbnail {
+    margin-left: 24px;
+  }
+
+  .upload__photo {
+    width: 344px;
+  }
+  .upload__context {
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .upload__tyv {
+    margin-top: 40px;
+  }
+
+  .upload__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .upload__button {
+    width: 160px;
+  }
+  .upload__cancel {
+    margin-right: 48px;
+  }
+}
+
+@include large {
+  .upload__title {
+    padding-left: 180px;
+    padding-top: 24px;
+  }
+  .upload__thumbnail {
+    width: 344px;
+  }
+  .upload__photo {
+    height: 183px;
+    width: 344px;
+  }
+  .upload__both {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .upload__context {
+    margin-right: 180px;
+  }
+  .upload__titletextbox {
+    width: 47.7vw;
+  }
+  .upload__descriptiontextbox {
+    width: 47.7vw;
+  }
+  .upload__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-right: 180px;
+  }
+  .upload__button {
+    width: 160px;
+  }
+  .upload__cancel {
+    margin-right: 48px;
+  }
+}
